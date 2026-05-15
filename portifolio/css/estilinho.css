@@ -63,7 +63,44 @@ section:hover {
     min-height: 101px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 2px 10px 10px rgba(0, 0, 0, 1) ;  
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
 }
-
-
+.card-habilidade:hover {
+    transform: scale(1.05);
+}
+.container-projetos {
+    display: flex;
+    justify-content: space-between;
+}
+.card-projeto {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    transition: transform 0.3s ease
+}
+.card-projeto:hover {
+    transform: scale(1.05);
+}
+.card-projeto img{
+    width: 100%;
+    height: 133px;
+    border-radius: 10px;
+}
+.card-projeto a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+.card-projeto a:hover {
+    background-color: darkgrey;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
